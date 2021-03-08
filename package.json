@@ -1,0 +1,35 @@
+{
+    "name": "",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PavelPankov111/news-explorer-api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PavelPankov111/news-explorer-api/issues"
+    },
+    "homepage": "https://github.com/PavelPankov111/news-explorer-api#readme",
+    "devDependencies": {
+        "eslint-plugin-import": "^2.22.1",
+        "eslint": "^7.11.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-prettier": "^6.12.0",
+        "nodemon": "^2.0.6"
+    },
+    "dependencies": {
+        "assert": "^2.0.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.4"
+    }
+}
