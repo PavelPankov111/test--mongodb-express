@@ -4,4 +4,5 @@
  ``` javascript 
   npm install + у вас должна быть база данных с названием "test-express" и 2 
   коллекции из ТЗ с названиями "first" и "second"
+  npm run dev - запускает приложение
 ```
